@@ -28,14 +28,15 @@
             <!--Description-->
             <div class="form-control ">
                 <label for="description">Description</label>
-                <textarea type="text" placeholder="description" id="description" name="description" value="<?php echo $user->email; ?>">
+                <textarea type="text" placeholder="description" id="description" name="description" value="">
+                <?php echo $course->description; ?>
                 </textarea>
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>                
                     <span>                    
                         <?php echo $err["description"]?>
                 </span>               
-               
+                <input  name="id"  type="hidden" value="<?php echo $_GET["id"] ?>">
             
             <!--Submit-->
             <button>Update</button>

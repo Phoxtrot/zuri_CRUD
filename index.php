@@ -25,7 +25,7 @@ if ($row>0) {
     include "views/index.view.php";          
     
 } else {
-    echo "message No record found";
+    include "views/index2.view.php";
 }
 
 

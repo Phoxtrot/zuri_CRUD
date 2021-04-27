@@ -46,7 +46,7 @@
             </div>            
             <!--Submit-->
             <button name="submit">Submit</button>
-            <p>Dont have an account? <a href="index.php">Register</a></p>
+            <p>Dont have an account? <a href="register.php">Register</a></p>
             <p><a href="reset.php">Forgot Password?</a></p>
         </form>
     </div>
